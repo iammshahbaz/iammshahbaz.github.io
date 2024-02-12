@@ -165,7 +165,8 @@ section .title::after{
 /* homes section styling */
 .homes{
     display: flex;
-    background: url("images/hand.jpg") no-repeat center;
+    /* background: url("images/hand.jpg") no-repeat center; */
+    background: linear-gradient(to left,rgb(12, 50, 61),black);
     height: 100vh;
     color: #fff;
     min-height: 500px;
