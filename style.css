@@ -355,14 +355,16 @@ section .title::after{
 /* .projects */
 
 .card-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-around;
-    margin: 20px;
+    /* margin: 20px; */
+    gap: 2%;
 }
 
 /* Styles for individual project-card */
 .project-card {
-    width: 30%;
+    width: 90%;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -628,10 +630,15 @@ footer span a:hover{
         justify-content: center;
     }
     .card-container {
-        display: flex;
+        /* display: flex;
         flex-direction: column;
         justify-content: space-around;
-        margin: 20px;
+        margin: 20px; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-around;
+        /* margin: 20px; */
+        gap: 2%;
     }
     .project-card {
         width: 100%;
