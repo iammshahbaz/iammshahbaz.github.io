@@ -72,13 +72,13 @@ $(document).ready(function(){
     });
     document.getElementById('resume-link-1').addEventListener('click', function() {
         window.open(
-          "https://drive.google.com/file/d/1SfK1K1hyTbCK4CDuBtf1T1jxm1r4yJ3i/view?usp=sharing"
+          "https://drive.google.com/drive/u/0/folders/1gYzoVpDvqNeuPwcx2ocPmg_6YifQGOCw"
         );
       });
     
       document.getElementById('resume-button-2').addEventListener('click', function() {
         window.open(
-          "https://drive.google.com/file/d/1SfK1K1hyTbCK4CDuBtf1T1jxm1r4yJ3i/view?usp=sharing"
+          "https://drive.google.com/drive/u/0/folders/1gYzoVpDvqNeuPwcx2ocPmg_6YifQGOCw"
         );
       });
    
